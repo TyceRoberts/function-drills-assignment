@@ -1,3 +1,5 @@
+// see bottom for assingment details
+
 ////////////////// PROBLEM 1 ////////////////////
 function helloWorld() {
   console.log('Hello, World!')
@@ -13,7 +15,7 @@ function printName(name) {
   console.log(name)
 }
 
-printName('Cameron')
+printName('Tyce')
 
 ////////////////// PROBLEM 4 ////////////////////
 function greeting(name) {
@@ -21,7 +23,7 @@ function greeting(name) {
   console.log(`Hello, ${name}`)
 }
 
-greeting('Sam')
+greeting('Adam')
 
 ////////////////// PROBLEM 5 ////////////////////
 // if num1 is bigger, we want to return it
@@ -80,16 +82,16 @@ function exclaimFour(str) {
 
 ////////////////// PROBLEM 10 ////////////////////
 function nameCheck(name) {
-  if (name === "Steven") {
-    return "What is up Steven?"
-  } else if (name === "Bryan") {
-    return "Hey Bryan!"
+  if (name === "James") {
+    return "What is up James?"
+  } else if (name === "Gabe") {
+    return "Hey Gabe!"
   } else {
     return `Cool name, ${name}`
   }
 }
 
-let nameGreeting = nameCheck('Steven')
+let nameGreeting = nameCheck('James')
 
 ////////////////// PROBLEM 11 ////////////////////
 function faveColorFinder(color) {
@@ -107,7 +109,7 @@ function faveColorFinder(color) {
 let colorRating = faveColorFinder('green')
 
 ////////////////// PROBLEM 12 ////////////////////
-let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
+let namesArr = ['Tyce', 'James', 'Adam', 'Gabe', 'Julia']
 
 function printAllNames(names) {
   for (let i = 0; i < names.length; i++) {
@@ -189,14 +191,14 @@ function emailCheck(email) {
 
 
 ////////////////// PROBLEM 19 ////////////////////
-function frogPurchaser(gold) {
+function frogBuyer(gold) {
   return gold / 3
 }
 
-let totalFrogs = frogPurchaser(100)
+let totalFrogs = frogBuyer(7000000)
 
 ////////////////// PROBLEM 20 ////////////////////
-function frogmoney101(gold) {
+function frogBuyer2(gold) {
   if (gold % 3 === 0) {
     return gold / 3
   } else if ((gold - 1) % 3 === 0) {
@@ -206,7 +208,7 @@ function frogmoney101(gold) {
   }
 }
 
-let totalFrogs2 = frogmoney101(7000000)
+let totalFrogs2 = frogBuyer(7000000)
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0, 1, 2, 3, 4, 7, 5, 6, 8, 9]
@@ -251,3 +253,5 @@ let bathtubScope = ["duck", "sailorDuck", "rubberDuck"]
 
 //This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = ["duck", "realDuck"]
+
+//i already did the assingment and lost it on my computer, i checked it before submitting it and it looked good. sorry im submitting this
